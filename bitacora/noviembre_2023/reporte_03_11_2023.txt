@@ -1,0 +1,14 @@
+# Topico del Reporte
+- Eurocopa
+# Notas
+- Nota 1
+- Nota 2
+- Nota 3
+# Dificultades
+- Dificultad 1
+- Dificultad 2
+- Dificultad 3
+# Hallazgos
+- Europeos se creen superiores a los americanos
+- Juego de menos contacto
+- Contiene mayor cantidad de jugadores de primer nivel

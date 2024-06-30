@@ -1,0 +1,14 @@
+# Topico del Reporte
+- Mal olor en las personas
+# Notas
+- Nota 1
+- Nota 2
+- Nota 3
+# Dificultades
+- Dificultad 1
+- Dificultad 2
+- Dificultad 3
+# Hallazgos
+- Se descubre una vacuna para el mal olor
+- La vacuna funciona durante un mes
+- Puede causar náuseas y mareos

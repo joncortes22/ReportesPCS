@@ -1,0 +1,14 @@
+# Topico del Reporte
+- Bebidas Energeticas
+# Notas
+- Nota 1
+- Nota 2
+- Nota 3
+# Dificultades
+- Dificultad 1
+- Dificultad 2
+- Dificultad 3
+# Hallazgos
+- Su efectividad es subjetiva
+- Repercusiones severas
+- Consumo de Marketing

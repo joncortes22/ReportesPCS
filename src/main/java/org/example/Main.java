@@ -44,6 +44,7 @@ public class Main {
             String mes = formatoMes.format(date);
             if (!mes.equals(currentMonth)){
                 currentMonth = mes;
+                currentMonth = currentMonth.substring(0, 1).toUpperCase() + currentMonth.substring(1);
                 dataReporte.append(currentMonth).append("\n");
             }
 
@@ -64,7 +65,7 @@ public class Main {
     }
 
     public static void main(String[] args) throws InterruptedException, ParseException, IOException {
-        File mainFolder = new File("C:\\Users\\jonco\\Documents\\GIT Projects\\ReportGenerator\\src\\main\\java\\org\\example\\bitacora");
+        File mainFolder = new File("bitacora");
         File[] fileList = mainFolder.listFiles();
         assert fileList != null;
 

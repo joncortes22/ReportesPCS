@@ -1,0 +1,14 @@
+# Topico del Reporte
+- Instrumentos de cuerda
+# Notas
+- Nota 1
+- Nota 2
+- Nota 3
+# Dificultades
+- Dificultad 1
+- Dificultad 2
+- Dificultad 3
+# Hallazgos
+- Son mas limitados armonicamente
+- Permiten mayor versatilidad
+- Requiren mayor mentenimiento
