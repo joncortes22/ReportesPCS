@@ -30,7 +30,7 @@ public class Main {
     }
 
     public static void generarReporteFinal() throws IOException, ParseException {
-        File reporteFinal = new File("reporteFinal.txt");
+        File reporteFinal = new File("reporte_hallazgos.txt");
         reporteFinal.createNewFile();
 
         StringBuilder dataReporte = new StringBuilder();
