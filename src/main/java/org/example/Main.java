@@ -32,6 +32,8 @@ public class Main {
     public static void generarReporteFinal() throws IOException, ParseException {
         File reporteFinal = new File("reporte_hallazgos.txt");
         reporteFinal.createNewFile();
+        if (reporteFinal.createNewFile()){System.out.println("Final report created:" + reporteFinal.getName());}
+        else {System.out.println("Final report file replaced: " + reporteFinal.getName());}
 
         StringBuilder dataReporte = new StringBuilder();
         String currentMonth = "";
@@ -73,6 +75,7 @@ public class Main {
         Folder[] folderThreads = new Folder[folderCount];
         int counter = 0;
         for (File file:fileList){
+            System.out.println("Searching through " + file.getName());
             folderThreads[counter] = new Folder(file);
             folderThreads[counter].start();
             counter++;
@@ -80,6 +83,7 @@ public class Main {
         for (Folder folder : folderThreads){
             folder.join();
         }
+        System.out.println("\nSearch completed.\n");
         ordenarReportes();
         generarReporteFinal();
 

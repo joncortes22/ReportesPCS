@@ -58,6 +58,7 @@ public class Folder extends Thread{
             } else {
                 Matcher matcher = compiledPattern.matcher(file.getName());
                 if (matcher.matches()){
+                    System.out.println("Report found: " + file.getName());
                     getFileInfo(file);
                 }
             }
