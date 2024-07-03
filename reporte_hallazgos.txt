@@ -5,7 +5,6 @@ Noviembre 2023
  - Juego de menos contacto
  - Contiene mayor cantidad de jugadores de primer nivel
 
-Noviembre 2023
 # Reporte del 06-11-2023
 # Instrumentos de cuerda
  - Son mas limitados armonicamente

@@ -25,7 +25,6 @@ public class Main {
                     reportHashMap.set(x, temp);
                 }
             }
-
         }
     }
 
@@ -44,6 +43,7 @@ public class Main {
             Date date = dateFormat.parse(fecha);
             SimpleDateFormat formatoMes = new SimpleDateFormat("MMMM yyyy", Locale.forLanguageTag("es"));
             String mes = formatoMes.format(date);
+            currentMonth = currentMonth.toLowerCase();
             if (!mes.equals(currentMonth)){
                 currentMonth = mes;
                 currentMonth = currentMonth.substring(0, 1).toUpperCase() + currentMonth.substring(1);
@@ -86,6 +86,5 @@ public class Main {
         System.out.println("\nSearch completed.\n");
         ordenarReportes();
         generarReporteFinal();
-
     }
 }
